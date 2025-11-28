@@ -25,4 +25,4 @@ numpy1 = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/username/minireqs"
+Homepage = "https://github.com/drmathesis/minireqs"
