@@ -40,6 +40,10 @@ Finds the corresponding PyPI package name and version for an import statement.
 ```bash
 pip install minireqs
 ```
+or
+```bash
+pip install minireqs[Numpy1]
+```
 
 ## Usage
 
@@ -53,6 +57,7 @@ df = extract_pip_requirement('my_script.py', 'requirements.txt')
 ## Requirements
 
 - Python >= 3.10
-- pandas >= 2.2.2
-- numpy > 2.0
+- pandas >= 2.0.0 
+- Default option: (numpy >= 2.0.0, pandas >= 2.2.2)
+- [Numpy1] option: (1,21.0 <= numpy < 2.0.0, pandas < 2.2.2)
 
