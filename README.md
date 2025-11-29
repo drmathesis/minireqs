@@ -6,7 +6,7 @@ A lightweight Python utility that automatically generates `requirements.txt` fil
 
 Automatically extract minimal dependency requirements from your Python codebase, making it ideal for packaging, deployment, and environment reproduction.
 
-##### Notes: (1) The package must be installed in the same Python environment as the project so it can detect the packages and versions actually in use. (2) Only detection of packages installed via pip has been tested so far. (3) Even if all packages are installed via pip, there is still a small chance that some required packages won’t be detected if they are never explicitly imported in your scripts. After installing the generated requirements in a clean/fresh environment, test again (or build and run your Docker image) to identify any missing dependencies.
+##### Notes: (1) The package must be installed in the same Python environment as the project so it can detect the packages and versions actually in use. (2) Only detection of packages installed via pip has been tested so far. (3) Even if all packages are installed via pip, there is still a chance that some required packages won’t be detected if they are never explicitly imported in your scripts. Once the generated requirements are installed in a clean/fresh environment, test again—or build and run your Docker image—to check for any missing dependencies.
 
 ## Main Functions
 
