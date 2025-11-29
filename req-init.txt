@@ -1,10 +1,12 @@
+# Set up package development environment
 ipykernel
 nbformat
 pytest 
+twine
 
 pandas
 
-# packages to test 
+# packages installed to test functions
 pandas-gbq
 google-cloud-storage
 google-cloud-bigquery-storage
