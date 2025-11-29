@@ -59,5 +59,5 @@ df = extract_pip_requirement('my_script.py', 'requirements.txt')
 - Python >= 3.10
 - pandas >= 2.0.0 
 - Default option: (numpy >= 2.0.0, pandas >= 2.2.2)
-- [Numpy1] option: (1,21.0 <= numpy < 2.0.0, pandas < 2.2.2)
+- [Numpy1] option: (1.21.0 <= numpy < 2.0.0, pandas < 2.2.2)
 
